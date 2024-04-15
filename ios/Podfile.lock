@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - sf_symbols (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sf_symbols (from `.symlinks/plugins/sf_symbols/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sf_symbols:
+    :path: ".symlinks/plugins/sf_symbols/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  sf_symbols: 84365e389895263a28c58be12a5ddedb7182cc4e
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
