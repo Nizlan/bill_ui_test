@@ -59,25 +59,28 @@ class _TestPageState extends State<TestPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Row(
-                          children: [
-                            SvgPicture.asset(
-                              "assets/svg/calendar-month.svg",
-                              color: Color(0xFF0A4FFF),
-                              width: 20,
-                            ),
-                            const SizedBox(
-                              width: 4,
-                            ),
-                            const Text(
-                              "Mar 1 - Apr 13",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 15,
-                                  height: 20 / 15,
-                                  color: Color(0xFF0A4FFF)),
-                            ),
-                          ],
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 7),
+                          child: Row(
+                            children: [
+                              SvgPicture.asset(
+                                "assets/svg/calendar-month.svg",
+                                color: Color(0xFF0A4FFF),
+                                width: 20,
+                              ),
+                              const SizedBox(
+                                width: 4,
+                              ),
+                              const Text(
+                                "Mar 1 - Apr 13",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 15,
+                                    height: 20 / 15,
+                                    color: Color(0xFF0A4FFF)),
+                              ),
+                            ],
+                          ),
                         ),
                         const SizedBox(height: 12),
                         const Text(
